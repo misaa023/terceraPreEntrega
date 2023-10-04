@@ -19,7 +19,7 @@ bebidas.forEach((producto) => {
     // creo mi boton de comprar
     const btnComprar = document.createElement('button');
     btnComprar.className = 'btn-comprar';
-    btnComprar.innerText = 'Comrar';
+    btnComprar.innerText = 'Comprar';
     contenido.append(btnComprar);
 
     // funcion que me permite realizar la compra de una bebida y lo suma al carrito
